@@ -13,7 +13,7 @@ var btn = document.getElementById("signin");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on the button, open the modal 
+// When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
@@ -40,7 +40,7 @@ var b = document.getElementById("SignUp");
 // Get the <span> element that closes the modal
 var s = document.getElementsByClassName("close")[1];
 
-// When the user clicks on the button, open the modal 
+// When the user clicks on the button, open the modal
 b.onclick = function() {
   m.style.display = "block";
 }
@@ -63,3 +63,8 @@ function func1()
 
 var f=document.getElementById('tagline');
 f.style.fontSize='14px';
+
+function func3()
+{
+ window.location.href="html/post.html";
+}
